@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'path_finder'
+require 'optparse'
+
+options = {}
+
+PathFinder.start!(options)
