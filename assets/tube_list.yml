@@ -1,0 +1,435 @@
+Bakerloo:
+  - Harrow and Wealdstone: Kenton
+  - Kenton: South Kenton
+  - South Kenton: North Wembley
+  - North Wembley: Wembley Central
+  - Wembley Central: Stonebridge Park
+  - Stonebridge Park: Harlesden
+  - Harlesden: Willesden Junction
+  - Willesden Junction: Kensal Green
+  - Kensal Green: Queen's Park
+  - Queen's Park: Kilburn Park
+  - Kilburn Park: Maida Vale
+  - Maida Vale: Warwick Avenue
+  - Warwick Avenue: Paddington
+  - Paddington: Edgware Road
+  - Edgware Road: Marylebone
+  - Marylebone: Baker Street
+  - Baker Street: Regent's Park
+  - Regent's Park: Oxford Circus
+  - Oxford Circus: Piccadilly Circus
+  - Piccadilly Circus: Charing Cross
+  - Charing Cross: Embankment
+  - Embankment: Waterloo
+  - Waterloo: Lambeth North
+  - Lambeth North: Elephant and Castle
+Central:
+  - Epping: Theydon Bois
+  - Theydon Bois: Debden
+  - Debden: Loughton
+  - Loughton: Buckhurst Hill
+  - Buckhurst Hill: Woodford
+  - Woodford: Roding Valley
+  - Roding Valley: Chigwell
+  - Chigwell: Grange Hill
+  - Grange Hill: Hainault
+  - Hainault: Fairlop
+  - Fairlop: Barkingside
+  - Barkingside: Newbury Park
+  - Newbury Park: Gants Hill
+  - Gants Hill: Redbridge
+  - Redbridge: Wanstead
+  - Wanstead: Leytonstone
+  - Woodford: South Woodford
+  - South Woodford: Snaresbrook
+  - Snaresbrook: Leytonstone
+  - Leytonstone: Leyton
+  - Leyton: Stratford
+  - Stratford: Mile End
+  - Mile End: Bethnal Green
+  - Bethnal Green: Liverpool Street
+  - Liverpool Street: Bank
+  - Bank: St. Paul's
+  - St. Paul's: Chancery Lane
+  - Chancery Lane: Holborn
+  - Holborn: Tottenham Court Road
+  - Tottenham Court Road: Oxford Circus
+  - Oxford Circus: Bond Street
+  - Bond Street: Marble Arch
+  - Marble Arch: Lancaster Gate
+  - Lancaster Gate: Queensway
+  - Queensway: Notting Hill Gate
+  - Notting Hill Gate: Holland Park
+  - Holland Park: Shepherd's Bush
+  - Shepherd's Bush: White City
+  - White City: East Acton
+  - East Acton: North Acton
+  - North Acton: West Acton
+  - West Acton: Ealing Broadway
+  - North Acton: Hanger Lane
+  - Hanger Lane: Perivale
+  - Perivale: Greenford
+  - Greenford: Northolt
+  - Northolt: South Ruislip
+  - South Ruislip: Ruislip Gardens
+  - Ruislip Gardens: West Ruislip
+Circle:
+  - Paddington: Bayswater
+  - Bayswater: Notting Hill Gate
+  - Notting Hill Gate: High Street Kensington
+  - High Street Kensington: Gloucester Road
+  - Gloucester Road: South Kensington
+  - South Kensington: Sloane Square
+  - Sloane Square: Victoria
+  - Victoria: St. James's Park
+  - St. James's Park: Westminster
+  - Westminster: Embankment
+  - Embankment: Temple
+  - Temple: Blackfriars
+  - Blackfriars: Mansion House
+  - Mansion House: Cannon Street
+  - Cannon Street: Monument
+  - Monument: Tower Hill
+  - Tower Hill: Aldgate
+  - Aldgate: Liverpool Street
+  - Liverpool Street: Moorgate
+  - Moorgate: Barbican
+  - Barbican: Farringdon
+  - Farringdon: King's Cross St. Pancras
+  - King's Cross St. Pancras: Euston Square
+  - Euston Square: Great Portland Street
+  - Great Portland Street: Baker Street
+  - Baker Street: Edgware Road
+  - Edgware Road: Paddington
+  - Paddington: Royal Oak
+  - Royal Oak: Westbourne Park
+  - Westbourne Park: Ladbroke Grove
+  - Ladbroke Grove: Latimer Road
+  - Latimer Road: Wood Lane
+  - Wood Lane: Shepherd's Bush Market
+  - Shepherd's Bush Market: Goldhawk Road
+  - Goldhawk Road: Hammersmith
+District:
+  - Edgware Road: Paddington
+  - Paddington: Bayswater
+  - Bayswater: Notting Hill Gate
+  - Notting Hill Gate: High Street Kensington
+  - High Street Kensington: Earl's Court
+  - Upminster: Upminster Bridge
+  - Upminster Bridge: Hornchurch
+  - Hornchurch: Elm Park
+  - Elm Park: Dagenham East
+  - Dagenham East: Dagenham Heathway
+  - Dagenham Heathway: Becontree
+  - Becontree: Upney
+  - Upney: Barking
+  - Barking: East Ham
+  - East Ham: Upton Park
+  - Upton Park: Plaistow
+  - Plaistow: West Ham
+  - West Ham: Bromley-by-Bow
+  - Bromley-by-Bow: Bow Road
+  - Bow Road: Mile End
+  - Mile End: Stepney Green
+  - Stepney Green: Whitechapel
+  - Whitechapel: Aldgate East
+  - Aldgate East: Tower Hill
+  - Tower Hill: Monument
+  - Monument: Cannon Street
+  - Cannon Street: Mansion House
+  - Mansion House: Blackfriars
+  - Blackfriars: Temple
+  - Temple: Embankment
+  - Embankment: Westminster
+  - Westminster: St. James's Park
+  - St. James's Park: Victoria
+  - Victoria: Sloane Square
+  - Sloane Square: South Kensington
+  - South Kensington: Gloucester Road
+  - Gloucester Road: Earl's Court
+  - Earl's Court: West Brompton
+  - West Brompton: Fulham Broadway
+  - Fulham Broadway: Parsons Green
+  - Parsons Green: Putney Bridge
+  - Putney Bridge: East Putney
+  - East Putney: Southfields
+  - Southfields: Wimbledon Park
+  - Wimbledon Park: Wimbledon
+  - Earl's Court: West Kensington
+  - West Kensington: Barons Court
+  - Barons Court: Hammersmith
+  - Hammersmith: Ravenscourt Park
+  - Ravenscourt Park: Stamford Brook
+  - Stamford Brook: Turnham Green
+  - Turnham Green: Gunnersbury
+  - Gunnersbury: Kew Gardens
+  - Kew Gardens: Richmond
+  - Turnham Green: Chiswick Park
+  - Chiswick Park: Acton Town
+  - Acton Town: Ealing Common
+  - Ealing Common: Ealing Broadway
+  - Earl's Court: Kensington
+Docklands Light Railway:
+  - Bank: Shadwell
+  - Tower Gateway: Shadwell
+  - Shadwell: Limehouse
+  - Limehouse: Westferry
+  - Stratford International: Stratford
+  - Stratford: Stratford High Street
+  - Stratford High Street: Abbey Road
+  - Abbey Road: West Ham
+  - West Ham: Star Lane
+  - Stratford: Pudding Mill Lane
+  - Pudding Mill Lane: Bow Church
+  - Bow Church: Devons Road
+  - Devons Road: Langdon Park
+  - Langdon Park: All Saints
+  - All Saints: Poplar
+  - Westferry: Poplar
+  - Poplar: Blackwall
+  - Blackwall: East India
+  - East India: Canning Town
+  - Star Lane: Canning Town
+  - Canning Town: Royal Victoria
+  - Royal Victoria: Custom House
+  - Custom House: Prince Regent
+  - Prince Regent: Royal Albert
+  - Royal Albert: Beckton Park
+  - Beckton Park: Cyprus
+  - Cyprus: Gallions Reach
+  - Gallions Reach: Beckton
+  - Canning Town: West Silvertown
+  - West Silvertown: Pontoon Dock
+  - Pontoon Dock: London City Airport
+  - London City Airport: King George V
+  - King George V: Woolwich Arsenal
+  - Westferry: West India Quay
+  - Poplar: West India Quay
+  - West India Quay: Canary Wharf
+  - Canary Wharf: Heron Quays
+  - Heron Quays: South Quay
+  - South Quay: Crossharbour
+  - Crossharbour: Mudchute
+  - Mudchute: Island Gardens
+  - Island Gardens: Cutty Sark
+  - Cutty Sark: Greenwich
+  - Greenwich: Deptford Bridge
+  - Deptford Bridge: Elverson Road
+  - Elverson Road: Lewisham
+Hammersmith and City:
+  - Barking: East Ham
+  - East Ham: Upton Park
+  - Upton Park: Plaistow
+  - Plaistow: West Ham
+  - West Ham: Bromley-by-Bow
+  - Bromley-by-Bow: Bow Road
+  - Bow Road: Mile End
+  - Mile End: Stepney Green
+  - Stepney Green: Whitechapel
+  - Whitechapel: Aldgate East
+  - Aldgate East: Liverpool Street
+  - Liverpool Street: Moorgate
+  - Moorgate: Barbican
+  - Barbican: Farringdon
+  - Farringdon: King's Cross St. Pancras
+  - King's Cross St. Pancras: Euston Square
+  - Euston Square: Great Portland Street
+  - Great Portland Street: Baker Street
+  - Baker Street: Edgware Road
+  - Edgware Road: Paddington
+  - Paddington: Royal Oak
+  - Royal Oak: Westbourne Park
+  - Westbourne Park: Ladbroke Grove
+  - Ladbroke Grove: Latimer Road
+  - Latimer Road: Wood Lane
+  - Wood Lane: Shepherd's Bush Market
+  - Shepherd's Bush Market: Goldhawk Road
+  - Goldhawk Road: Hammersmith
+Jubilee:
+  - Stanmore: Canons Park
+  - Canons Park: Queensbury
+  - Queensbury: Kingsbury
+  - Kingsbury: Wembley Park
+  - Wembley Park: Neasden
+  - Neasden: Dollis Hill
+  - Dollis Hill: Willesden Green
+  - Willesden Green: Kilburn
+  - Kilburn: West Hampstead
+  - West Hampstead: Finchley Road
+  - Finchley Road: Swiss Cottage
+  - Swiss Cottage: St. John's Wood
+  - St. John's Wood: Baker Street
+  - Baker Street: Bond Street
+  - Bond Street: Green Park
+  - Green Park: Westminster
+  - Westminster: Waterloo
+  - Waterloo: Southwark
+  - Southwark: London Bridge
+  - London Bridge: Bermondsey
+  - Bermondsey: Canada Water
+  - Canada Water: Canary Wharf
+  - Canary Wharf: North Greenwich
+  - North Greenwich: Canning Town
+  - Canning Town: West Ham
+  - West Ham: Stratford
+Metropolitan:
+  - Uxbridge: Hillingdon
+  - Hillingdon: Ickenham
+  - Ickenham: Ruislip
+  - Ruislip: Ruislip Manor
+  - Ruislip Manor: Eastcote
+  - Eastcote: Rayners Lane
+  - Rayners Lane: West Harrow
+  - West Harrow: Harrow-on-the-Hill
+  - Amersham: Chalfont and Latimer
+  - Chesham: Chalfont and Latimer
+  - Chalfont and Latimer: Chorleywood
+  - Chorleywood: Rickmansworth
+  - Watford: Croxley
+  - Rickmansworth: Moor Park
+  - Croxley: Moor Park
+  - Moor Park: Northwood
+  - Northwood: Northwood Hills
+  - Northwood Hills: Pinner
+  - Pinner: North Harrow
+  - North Harrow: Harrow-on-the-Hill
+  - Moor Park: Harrow-on-the-Hill
+  - Harrow-on-the-Hill: Northwick Park
+  - Northwick Park: Preston Road
+  - Preston Road: Wembley Park
+  - Harrow-on-the-Hill: Wembley Park
+  - Wembley Park: Finchley Road
+  - Harrow-on-the-Hill: Finchley Road
+  - Finchley Road: Baker Street
+  - Baker Street: Great Portland Street
+  - Great Portland Street: Euston Square
+  - Euston Square: King's Cross St. Pancras
+  - King's Cross St. Pancras: Farringdon
+  - Farringdon: Barbican
+  - Barbican: Moorgate
+  - Moorgate: Liverpool Street
+  - Liverpool Street: Aldgate
+Northern:
+  - Edgware: Burnt Oak
+  - Burnt Oak: Colindale
+  - Colindale: Hendon Central
+  - Hendon Central: Brent Cross
+  - Brent Cross: Golders Green
+  - Golders Green: Hampstead
+  - Hampstead: Belsize Park
+  - Belsize Park: Chalk Farm
+  - Chalk Farm: Camden Town
+  - Mill Hill East: Finchley Central
+  - High Barnet: Totteridge and Whetstone
+  - Totteridge and Whetstone: Woodside Park
+  - Woodside Park: West Finchley
+  - West Finchley: Finchley Central
+  - Finchley Central: East Finchley
+  - East Finchley: Highgate
+  - Highgate: Archway
+  - Archway: Tufnell Park
+  - Tufnell Park: Kentish Town
+  - Kentish Town: Camden Town
+  - Camden Town: Mornington Crescent
+  - Camden Town: Euston
+  - Mornington Crescent: Euston
+  - Euston: King's Cross St. Pancras
+  - King's Cross St. Pancras: Angel
+  - Angel: Old Street
+  - Old Street: Moorgate
+  - Moorgate: Bank
+  - Bank: London Bridge
+  - London Bridge: Borough
+  - Borough: Elephant and Castle
+  - Elephant and Castle: Kennington
+  - Euston: Warren Street
+  - Warren Street: Goodge Street
+  - Goodge Street: Tottenham Court Road
+  - Tottenham Court Road: Leicester Square
+  - Leicester Square: Charing Cross
+  - Charing Cross: Embankment
+  - Embankment: Waterloo
+  - Waterloo: Kennington
+  - Kennington: Oval
+  - Oval: Stockwell
+  - Stockwell: Clapham North
+  - Clapham North: Clapham Common
+  - Clapham Common: Clapham South
+  - Clapham South: Balham
+  - Balham: Tooting Bec
+  - Tooting Bec: Tooting Broadway
+  - Tooting Broadway: Colliers Wood
+  - Colliers Wood: South Wimbledon
+  - South Wimbledon: Morden
+Piccadilly:
+  - Cockfosters: Oakwood
+  - Oakwood: Southgate
+  - Southgate: Arnos Grove
+  - Arnos Grove: Bounds Green
+  - Bounds Green: Wood Green
+  - Wood Green: Turnpike Lane
+  - Turnpike Lane: Manor House
+  - Manor House: Finsbury Park
+  - Finsbury Park: Arsenal
+  - Arsenal: Holloway Road
+  - Holloway Road: Caledonian Road
+  - Caledonian Road: King's Cross St. Pancras
+  - King's Cross St. Pancras: Russell Square
+  - Russell Square: Holborn
+  - Holborn: Covent Garden
+  - Covent Garden: Leicester Square
+  - Leicester Square: Piccadilly Circus
+  - Piccadilly Circus: Green Park
+  - Green Park: Hyde Park Corner
+  - Hyde Park Corner: Knightsbridge
+  - Knightsbridge: South Kensington
+  - South Kensington: Gloucester Road
+  - Gloucester Road: Earl's Court
+  - Earl's Court: Barons Court
+  - Barons Court: Hammersmith
+  - Hammersmith: Turnham Green
+  - Turnham Green: Acton Town
+  - Acton Town: South Ealing
+  - South Ealing: Northfields
+  - Northfields: Boston Manor
+  - Boston Manor: Osterley
+  - Osterley: Hounslow East
+  - Hounslow East: Hounslow Central
+  - Hounslow Central: Hounslow West
+  - Hounslow West: Hatton Cross
+  - Hatton Cross: Heathrow Terminal 4
+  - Hatton Cross: Heathrow Terminals 1, 2, 3
+  - Heathrow Terminal 4: Heathrow Terminals 1, 2, 3
+  - Heathrow Terminals 1, 2, 3: Heathrow Terminal 5
+  - Acton Town: Ealing Common
+  - Ealing Common: North Ealing
+  - North Ealing: Park Royal
+  - Park Royal: Alperton
+  - Alperton: Sudbury Town
+  - Sudbury Town: Sudbury Hill
+  - Sudbury Hill: South Harrow
+  - South Harrow: Rayners Lane
+  - Rayners Lane: Eastcote
+  - Eastcote: Ruislip Manor
+  - Ruislip Manor: Ruislip
+  - Ruislip: Ickenham
+  - Ickenham: Hillingdon
+  - Hillingdon: Uxbridge
+Victoria:
+  - Walthamstow Central: Blackhorse Road
+  - Blackhorse Road: Tottenham Hale
+  - Tottenham Hale: Seven Sisters
+  - Seven Sisters: Finsbury Park
+  - Finsbury Park: Highbury and Islington
+  - Highbury and Islington: King's Cross St. Pancras
+  - King's Cross St. Pancras: Euston
+  - Euston: Warren Street
+  - Warren Street: Oxford Circus
+  - Oxford Circus: Green Park
+  - Green Park: Victoria
+  - Victoria: Pimlico
+  - Pimlico: Vauxhall
+  - Vauxhall: Stockwell
+  - Stockwell: Brixton
+Waterloo and City:
+  - Bank: Waterloo

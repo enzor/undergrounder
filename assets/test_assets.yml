@@ -1,0 +1,34 @@
+Bakerloo:
+  - Oxford Circus: Piccadilly Circus
+  - Piccadilly Circus: Charing Cross
+  - Charing Cross: Embankment
+  - Embankment: Waterloo
+Central:
+  - Bond Street: Oxford Circus
+  - Oxford Circus: Tottenham Court Road
+  - Tottenham Court Road: Holborn
+Jubilee:
+  - Bond Street: Green Park
+  - Green Park: Westminster
+  - Westminster: Waterloo
+Northern:
+  - Euston: Warren Street
+  - Warren Street: Goodge Street
+  - Goodge Street: Tottenham Court Road
+  - Tottenham Court Road: Leicester Square
+  - Leicester Square: Charing Cross
+  - Charing Cross: Embankment
+  - Embankment: Waterloo
+Piccadilly:
+  - King's Cross: Russel Square
+  - Russel Square: Holborn
+  - Holborn: Covent Garden
+  - Covent Garden: Leicester Square
+  - Leicester Square: Piccadilly Circus
+  - Piccadilly Circus: Green Park
+Victoria:
+  - King's Cross: Euston
+  - Euston: Warren Street
+  - Warren Street: Oxford Circus
+Waterloo & City:
+  - Bank: Waterloo
