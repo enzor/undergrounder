@@ -1,0 +1,9 @@
+- form_tag ("/") do
+	Origin:
+	= text_field_tag :source
+	Destination:
+	= text_field_tag :destination
+	= submit_tag "Submit"
+
+- if @result != nil
+	= @result

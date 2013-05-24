@@ -30,16 +30,5 @@ Bundler.require(:default, PADRINO_ENV)
 #   include Padrino::Helpers::TranslationHelpers
 # end
 
-##
-# Add your before (RE)load hooks here
-#
-Padrino.before_load do
-end
-
-##
-# Add your after (RE)load hooks here
-#
-Padrino.after_load do
-end
 
 Padrino.load!
