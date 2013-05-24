@@ -4,23 +4,23 @@ describe PathFinder do
 	  describe "Test" do
 	  	before(:each) do
 	  	  	@graph = PathFinder::Graph.new
-			@graph.load_from_yaml("/Users/user/progetti/path_finder/assets/tube_list.yml")
+	  	  	@graph.load_from_yaml
 	  	end
 
 		describe "data integrity" do
 			it "should detect if the source is wrong" do
 			  STDOUT.should_receive(:puts).with("The following stations were not found in the application: Lappland. Please, check your data.")
-		  	  expect { @graph.print_shortest_paths("Lappland", "Hammersmith") }.to raise_exception SystemExit
+		  	  expect { @graph.print_shortest_paths("Lappland", "Hammersmith", false) }.to raise_exception SystemExit
 			end
 		  
 		  	it "should detect if the destination is wrong" do
 			  STDOUT.should_receive(:puts).with("The following stations were not found in the application: Santa Claws. Please, check your data.")
-		  	  expect { @graph.print_shortest_paths("Hammersmith", "Santa Claws") }.to raise_exception SystemExit
+		  	  expect { @graph.print_shortest_paths("Hammersmith", "Santa Claws", false) }.to raise_exception SystemExit
 			end
 
 			it "should detect if both source and destionation are wrong" do
 			  STDOUT.should_receive(:puts).with("The following stations were not found in the application: Lappland,Santa Claws. Please, check your data.")
-		  	  expect { @graph.print_shortest_paths("Lappland", "Santa Claws") }.to raise_exception SystemExit
+		  	  expect { @graph.print_shortest_paths("Lappland", "Santa Claws", false) }.to raise_exception SystemExit
 			end
 		end
 
@@ -81,18 +81,18 @@ describe PathFinder do
 
 		describe "Print shortest paths correctness" do
 		  	it "should print the correct path from Livepool Street to Brixton" do
-	  		  output = capture_stdout { @graph.print_shortest_paths("Brixton", "Liverpool Street") }
+	  		  output = capture_stdout { @graph.print_shortest_paths("Brixton", "Liverpool Street", false) }
 	  		  output.should include("Brixton, Stockwell, Oval, Kennington, Waterloo, Bank, Liverpool Street")
 		  	end
 
 		  	it "should print the correct path from Bow Road to Upminster" do
-	  		  output = capture_stdout { @graph.print_shortest_paths("Bow Road", "Upminster") }
+	  		  output = capture_stdout { @graph.print_shortest_paths("Bow Road", "Upminster", false) }
 	  		  output.should include("Bow Road, Bromley-by-Bow, West Ham, Plaistow, Upton Park, East Ham, Barking, Upney, Becontree, Dagenham Heathway, Dagenham East, Elm Park, Hornchurch, Upminster Bridge, Upminster")
 		  	end
 
 		  	it "should print the correct path from Stratford to Limehouse" do
 		  		# Looking at the map you'd think that taking the Jubilee will be fastest...
-		  		output = capture_stdout { @graph.print_shortest_paths("Stratford", "Limehouse") }
+		  		output = capture_stdout { @graph.print_shortest_paths("Stratford", "Limehouse", false) }
 	  		  	output.should include("Stratford, Mile End, Bethnal Green, Liverpool Street, Bank, Shadwell, Limehouse")
 		  	end
 
