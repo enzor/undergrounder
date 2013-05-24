@@ -12,6 +12,8 @@ Gem::Specification.new do |gem|
   gem.summary       = ""
   gem.homepage      = ""
 
+  gem.add_dependency "sinatra"
+  gem.add_dependency "padrino"
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "ruby-debug19"
 
