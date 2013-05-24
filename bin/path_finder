@@ -20,6 +20,7 @@ opt_parser = OptionParser.new do |opts|
   end
 
   opts.on("-s", "--start-server [OPT]", "Start an internal server") do |output|
+    puts "System is starting. Please , launch your browser and go to http://localhost:3000"
     Dir.chdir(File.join(File.dirname(File.expand_path(__FILE__)), "../vendor/web_finder/")) do
     	system("padrino start")
     end
