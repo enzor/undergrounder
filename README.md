@@ -1,29 +1,21 @@
-# ShortestTubeFinder
+# Path Finder
 
-TODO: Write a gem description
+	A little utility to find the shortest path between 2 stations in the London Tube map.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'shortest_tube_finder'
-
-And then execute:
+Open Terminal, position yourself in the root folder and then execute:
 
     $ bundle
 
-Or install it yourself as:
 
-    $ gem install shortest_tube_finder
+Then install it with rake:
+
+    $ rake install
 
 ## Usage
 
-TODO: Write usage instructions here
+	path_finder -h -> Display help options
+	path_finder -i -> Start an interactive tube search session.
+	path_finder -s -> Start an internal web server for querying the system
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
