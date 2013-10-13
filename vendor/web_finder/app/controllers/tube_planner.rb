@@ -6,7 +6,7 @@ WebFinder::App.controllers :tube_planner do
 
   post :index, :map => "/" do
   	@result = begin
-  		PathFinder.start!(params[:source], params[:destination], true)
+  		Undergrounder.start!(params[:source], params[:destination], true)
   	rescue Exception => e
   		"Please insert a valid origin or destination ( origin was #{params[:origin]}, destination was #{params[:destination]})"
   	end

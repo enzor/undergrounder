@@ -1,0 +1,30 @@
+#!/usr/bin/env ruby
+
+require 'undergrounder'
+require 'optparse'
+
+options = {}
+
+opt_parser = OptionParser.new do |opts|
+  opts.banner = "Usage: undergrounder [options]"
+
+  opts.on("-i", "--interactive", "Start an interactive tube search session") do |input|
+  	puts "Welcome to Undergrounder version #{Undergrounder::VERSION}!"
+  	puts "Enjoy your travel!"
+    puts "Please, enter a point of origin:"
+    source = gets.chomp
+    puts "Great!Now, enter a destination:"
+    destination = gets.chomp
+    puts "Calculating shortest path...."
+    Undergrounder.start!(source, destination)
+  end
+
+  opts.on("-s", "--start-server [OPT]", "Start an internal server") do |output|
+    puts "System is starting. Please , launch your browser and go to http://localhost:3000"
+    Dir.chdir(File.join(File.dirname(File.expand_path(__FILE__)), "../vendor/web_finder/")) do
+    	system("padrino start")
+    end
+  end
+end
+
+opt_parser.parse!

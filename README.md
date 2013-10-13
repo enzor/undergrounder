@@ -1,4 +1,4 @@
-# Path Finder
+# Undergrounder
 
 	A little utility to find the shortest path between 2 stations in the London Tube map.
 
@@ -15,7 +15,7 @@ Then install it with rake:
 
 ## Usage
 
-	path_finder -h -> Display help options
-	path_finder -i -> Start an interactive tube search session.
-	path_finder -s -> Start an internal web server for querying the system
+	undergrounder -h -> Display help options
+	undergrounder -i -> Start an interactive tube search session.
+	undergrounder -s -> Start an internal web server for querying the system
 
