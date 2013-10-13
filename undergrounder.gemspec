@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Undergrounder::VERSION
   gem.authors       = ["Enzo Rivello"]
   gem.email         = ["vincenzo.rivello@gmail.com"]
-  gem.description   = "Implementation of a short path finder for the London Tube"
+  gem.description   = "Simple Implementation of a short path finder for the London Tube"
   gem.summary       = ""
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/enzor/undergrounder"
 
   gem.add_dependency "sinatra"
   gem.add_dependency "padrino"
