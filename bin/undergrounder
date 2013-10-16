@@ -2,9 +2,7 @@
 
 require 'undergrounder'
 require 'optparse'
-
-options = {}
-
+help = nil
 opt_parser = OptionParser.new do |opts|
   opts.banner = "Usage: undergrounder [options]"
 
@@ -25,6 +23,23 @@ opt_parser = OptionParser.new do |opts|
     	system("padrino start")
     end
   end
+
+  opts.on_tail("-h", "--help",
+               "Show this message") do
+    puts opts
+    exit
+  end
+
+  if ARGV[0].nil?
+    puts opts.help
+  end
 end
 
-opt_parser.parse!
+
+begin
+  opt_parser.parse!
+rescue OptionParser::InvalidOption => e
+  puts e
+  puts opts
+  exit(1)
+end
