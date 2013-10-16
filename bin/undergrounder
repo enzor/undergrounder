@@ -40,6 +40,5 @@ begin
   opt_parser.parse!
 rescue OptionParser::InvalidOption => e
   puts e
-  puts opts
   exit(1)
 end
