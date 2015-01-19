@@ -4,3 +4,4 @@ RUN mkdir /workspace
 ADD . /workspace
 WORKDIR /workspace
 RUN bundle install
+RUN bundle exec rspec spec
